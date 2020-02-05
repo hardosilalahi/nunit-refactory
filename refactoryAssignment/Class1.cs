@@ -80,7 +80,7 @@ namespace refactoryAssignment
             return ListNumber;
         }
 
-        public List<int> EvenNumbers(){
+        public List<int> OddNumbers(){
             List<int> listNumber = new List<int>();
             
             for(int i = 0; i <= 100; i++){
@@ -94,8 +94,11 @@ namespace refactoryAssignment
         public List<string> GanjilGenapKelipatan(){
             List<string> listResults = new List<string>();
 
-            for(int i = 0; i <= 1000; i++){
-                if(i % 2 != 0 && i % 5 == 0){
+            for(int i = 1; i <= 1000; i++){
+                if(i % 100 == 0){
+                    listResults.Add($"{i}. Kelipatan Seratus");
+                }
+                else if(i % 2 != 0 && i % 5 == 0){
                     listResults.Add($"{i}. Ganjil Kelipatan Lima");
                 }
                 else if(i % 2 == 0 && i % 5 == 0){

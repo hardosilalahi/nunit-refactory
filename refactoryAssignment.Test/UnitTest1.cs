@@ -71,6 +71,16 @@ namespace refactoryAssignment.Test
         [Test]
         public void Test8()
         {
+            var listHasil = new List<string>{
+                "1. Ganjil",
+                "2. Genap",
+                "3. Ganjil",
+                "4. Genap",
+                "5. Ganjil Kelipatan Lima"
+            };
+            var preResult = Testing.GanjilGenapKelipatan();
+            var result = preResult.Take(5);
+            Assert.AreEqual(listHasil, result);
 
         }
 

@@ -1,0 +1,8 @@
+/Users/user/nunit-refactory/refactoryAssignment/bin/Debug/netstandard2.0/refactoryAssignment.deps.json
+/Users/user/nunit-refactory/refactoryAssignment/bin/Debug/netstandard2.0/refactoryAssignment.dll
+/Users/user/nunit-refactory/refactoryAssignment/bin/Debug/netstandard2.0/refactoryAssignment.pdb
+/Users/user/nunit-refactory/refactoryAssignment/obj/Debug/netstandard2.0/refactoryAssignment.csprojAssemblyReference.cache
+/Users/user/nunit-refactory/refactoryAssignment/obj/Debug/netstandard2.0/refactoryAssignment.AssemblyInfoInputs.cache
+/Users/user/nunit-refactory/refactoryAssignment/obj/Debug/netstandard2.0/refactoryAssignment.AssemblyInfo.cs
+/Users/user/nunit-refactory/refactoryAssignment/obj/Debug/netstandard2.0/refactoryAssignment.dll
+/Users/user/nunit-refactory/refactoryAssignment/obj/Debug/netstandard2.0/refactoryAssignment.pdb

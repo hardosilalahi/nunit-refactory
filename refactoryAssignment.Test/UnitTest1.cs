@@ -97,7 +97,7 @@ namespace refactoryAssignment.Test
         {
             string[] stuff = {"Meja", "Buku", "Topi", "Baju", "Kayu"};
             string[] addedValue = {"Handuk", "Meja", "Buku", "Topi", "Baju", "Kayu", "Celana"};
-            var result = Testing.AddToArray(stuff, "Handuk", "Celana");
+            var result = Testing.AddToArray(stuff, "Celana", "Handuk");
             Assert.AreEqual(addedValue, result);
         }
 

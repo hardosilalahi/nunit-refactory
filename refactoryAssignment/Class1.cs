@@ -125,19 +125,14 @@ namespace refactoryAssignment
         }
 
         public string[] AddToArray(string[] array1, string val1, string val2){
-            string[] array2 = new string[array1.Length + 2];
 
-            for(int i = 0; i < array2.Length-1; i++){
-                if(i == 0){
-                    array2[i] = val1;
-                }
-                else if(i == array2.Length - 1){
-                    array2[i] = val2;
-                }
-                else{
-                    array2[i] = array1[i - 1];
-                }
-            }
+            List<string> props = array1.ToList();
+
+            props.Insert(0, val2);
+            props.Add(val1);
+
+            string[] array2 = props.ToArray();
+            
             return array2;
         }
     }
